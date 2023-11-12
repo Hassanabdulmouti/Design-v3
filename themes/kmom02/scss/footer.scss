@@ -1,0 +1,17 @@
+@import 'variables';
+
+.footer {
+    flex: 0 0 auto;
+    list-style: none;
+    text-decoration: none;
+    display: grid;
+    justify-content: center;
+    border-top: $border;
+    margin-top: 5em;
+
+    .social {
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+}

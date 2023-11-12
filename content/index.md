@@ -3,7 +3,7 @@ Title: Home
 Description: Lite om mig
 
 ---
-<img class="me_img" src="image/Hassan2.png" width="300" alt="Alt Text" >
+<img class="me-img" src="image/Hassan2.png" width="300" alt="Alt Text" >
 
 
 Lite om mig

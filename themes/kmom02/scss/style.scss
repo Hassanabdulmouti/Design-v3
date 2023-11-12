@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&family=Oswald&family=Poppins:ital,wght@0,300;1,100&display=swap');
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'header';
+@import 'about';
+@import 'footer';
+@import 'home';
+@import 'blockquotes';
+@import 'code';
+
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: $font-family-s;
+    font-weight: 500;
+    line-height: 1rem;
+    color: font-color;
+}
+
+
+.main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+}

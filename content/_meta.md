@@ -1,7 +1,11 @@
 ---
 Logo: image/Logo_2.png
 social:
-    - title: Link till sidans github repo.
+    - title: Mina sidor.
       url: https://github.com/Hassanabdulmouti/Design-kursen
-      icon: github               
+      icon: fab fa-github
+      url2: https://www.instagram.com/hassanabdulmouti/
+      icon2: fab fa-instagram
+
+
 ---

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&family=Oswald&family=Playfair+Display&family=Poppins:ital,wght@0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&family=Oswald&family=Poppins:ital,wght@0,300;1,100&display=swap');
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'header';
+@import 'about';
+@import 'footer';
+@import 'home';
+@import 'rapport';
+@import 'technology';
+@import 'blockquotes';
+@import 'code';
+
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: $font-family-s;
+    font-weight: 500;
+    line-height: 1rem;
+    color: font-color;
+}
+
+
+.main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+}
+
+
+
+body {
+    background-color: $Background-dark;
+    color: $dark-text;
+
+    a {
+      color: $dark-link;
+  
+      &:hover {
+        color: lighten($dark-link, 10%);
+      }
+    }
+  
+}
+
+.footer, .header, .text {
+    background-color: $dark-background;
+    color: $dark-text;
+  
+    a {
+      color: $dark-link !important;
+  
+      &:hover {
+        color: lighten($dark-link, 10%) !important;
+      }
+    }
+  
+}
+
+pre {
+    color: $dark-background;
+
+}
+
+
+.landingpage {
+
+    .box1 {
+        border: 2px solid #bbbbbb;
+        background-color: $Background-dark;
+    }
+
+    .box {
+        background-color: $Background-dark;
+        border: 2px solid #bbbbbb;
+
+    }
+
+}
+
+.rapport {
+    a {
+        color: $dark-text;
+
+    }
+}
+
+.logo {
+    img {
+        filter: contrast(175%) brightness(33%);
+
+    }
+}
+
+
+.me-img {
+    border-radius: 10%;
+    max-width: 100%;
+    height: auto;
+    margin: 6em 0;
+    filter: opacity(75%);
+
+}
+
+
+.mb {
+    letter-spacing: 2px;
+    color: $dark-text;
+    font-size: 1.4rem;
+}

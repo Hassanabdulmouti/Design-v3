@@ -1,0 +1,36 @@
+.rapport {
+    display: grid;
+    justify-content: center;
+    row-gap: 3rem;
+
+    .links {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    a {
+        text-decoration: none;
+        list-style: none;
+        letter-spacing: 1px;
+        color: $font-color;
+
+    }
+    .r-img {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 0.5rem 0.25rem;
+        margin-bottom: 7rem;
+
+
+    }
+
+    h1 {
+        display: grid;
+        justify-content: center;
+    }
+}
+

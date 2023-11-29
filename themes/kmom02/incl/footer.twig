@@ -2,23 +2,32 @@
 
 <div class="container my-5" >
 
-    <footer class="footer" style="background-color: #deded5;">
+    <footer class="footer">
     <div class="container p-4" >
-      <div class="row">
-        <div class="col-lg-6 col-md-12 mb-4"  >
-          <h3 class="mb-3" style="letter-spacing: 2px; color: #818963; font-size: 1.4rem;">Mina Sidor</h3>
 
-        </div>
+      <div class="row">
         <div class="col-lg-3 col-md-6 mb-4"style="letter-spacing: 2px; color: #818963;  " >
+
+        <div class="flex"> 
+          <h3 class="mb">Mina Sidor</h3>
           <div class="social" >
               {% for social in pages["_meta"].meta.social %}
-        <a href="{{ social.url }}" title="{{ social.title }}" role="button" target="_blank">
-            <i class="{{ social.icon }}" aria-hidden="true"></i>
         <a href="{{ social.url2 }}" title="{{ social.title }}" role="button" target="_blank">
             <i class="{{ social.icon2 }}" aria-hidden="true"></i>
-            <span class="sr-only">{{ social.title }}</span>
+            </a>
+        {% endfor %}
+          </div>
+        </div>
+        <div class="flex"> 
+
+        <h3 class="mb">Dark Mode</h3>
+          <div class="social" >
+              {% for social in pages["_meta"].meta.social %}        
+        <a href="{{ social.url }}" title="{{ social.title }}" role="button" >
+            <i class="{{ social.icon }}" aria-hidden="true"></i>
         </a>
         {% endfor %}
+          </div>
           </div>
 
         </div>
@@ -27,11 +36,8 @@
     </div>
 
   </footer>
-      <div class="text-center p-3" style="background-color: #d0d0c4;     display: flex; justify-content: center;">
-      © 2023 Copyright
-    </div>
-</div>
 
+</div>
 
 
 <script src="{{ theme_url }}/../shared//js/modernizr-3.3.1-custom.min.js" type="text/javascript"></script>

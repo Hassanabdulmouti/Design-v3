@@ -8,7 +8,7 @@ Template: technologies
 <a href="css" >CSS </a>
 <a href="html" class="active">HTML</a>
 <a href="javascript">JAVASCRIPT</a>
-<a href="PHP">PHP</a>
+<a href="php">PHP</a>
 <a href="python">PYTHON</a>
 <a href="git">GIT</a>
 </div>

@@ -15,3 +15,5 @@ Denna strukturerade kod ökar underhållbarheten och gör det enklare att göra 
 
 Målet är att skapa en effektiv och skalbar webbplatsupplevelse.
 
+
+

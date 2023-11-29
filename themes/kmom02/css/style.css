@@ -6441,16 +6441,14 @@ template {
 }
 
 .logo img {
-  max-width: 50%;
-  border-radius: 50%;
-  margin-top: 5px;
+  max-width: 30%;
+  margin: 5px;
 }
 
 @media (max-width: 767px) {
   .logo img {
-    border-radius: 50%;
     padding: 1em;
-    max-width: 60%;
+    max-width: 30%;
   }
 }
 .about-img {
@@ -6461,18 +6459,40 @@ template {
 }
 
 .footer {
-  flex: 0 0 auto;
+  background-color: #deded5;
   list-style: none;
   text-decoration: none;
-  display: grid;
   justify-content: center;
   border-top: 1px solid #222;
   margin-top: 5em;
 }
+.footer .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer .col-lg-3 {
+  display: flex;
+  position: relative;
+  padding: 1em;
+}
+.footer .flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 1em 1em 0;
+}
 .footer .social {
   font-size: 2rem;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mb {
+  letter-spacing: 2px;
+  color: #000;
+  font-size: 1.4rem;
 }
 
 .me-img {
@@ -6480,6 +6500,36 @@ template {
   max-width: 100%;
   height: auto;
   margin: 6em 0;
+}
+
+.rapport {
+  display: grid;
+  justify-content: center;
+  row-gap: 3rem;
+}
+.rapport .links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.rapport a {
+  text-decoration: none;
+  list-style: none;
+  letter-spacing: 1px;
+  color: #444;
+}
+.rapport .r-img {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem 0.25rem;
+  margin-bottom: 7rem;
+}
+.rapport h1 {
+  display: grid;
+  justify-content: center;
 }
 
 .landingpage {
@@ -6656,7 +6706,6 @@ body {
   font-family: "Manrope" sans-serif;
   font-weight: 500;
   line-height: 1rem;
-  color: font-color;
 }
 
 .main {
@@ -6664,4 +6713,10 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1 0 auto;
+  line-height: 0.3rem;
+}
+
+.first-letter {
+  font-size: 25px;
+  line-height: 10px;
 }

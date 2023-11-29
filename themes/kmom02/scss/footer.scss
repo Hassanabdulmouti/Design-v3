@@ -1,17 +1,45 @@
 @import 'variables';
 
 .footer {
-    flex: 0 0 auto;
+    background-color: #deded5;
     list-style: none;
     text-decoration: none;
-    display: grid;
     justify-content: center;
     border-top: $border;
     margin-top: 5em;
 
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .col-lg-3  {
+        display: flex;
+        position: relative;
+        padding: 1em;
+    }
+    .flex {
+        display: flex;
+        justify-content: center;
+
+        flex-direction: column;
+        padding: 0 1em 1em 0;
+    }
     .social {
         font-size: 2rem;
         display: flex;
-        justify-content: center;
+        flex-wrap: wrap;
     }
+
 }
+
+.mb {
+    letter-spacing: 2px;
+    color: #000;
+    font-size: 1.4rem;
+}
+
+
+
+

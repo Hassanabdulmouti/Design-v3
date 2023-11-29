@@ -38,29 +38,31 @@ body {
 
 
 body {
-    background-color: $Background-dark;
+    background-color: $background-dark;
     color: $dark-text;
 
     a {
-      color: $dark-link;
-  
-      &:hover {
-        color: lighten($dark-link, 10%);
-      }
+        color: $dark-link;
+        
+        &:hover {
+            color: lighten($dark-link, 10%);
+        }
     }
   
 }
 
-.footer, .header, .text {
+.footer,
+.header,
+.text {
     background-color: $dark-background;
     color: $dark-text;
   
     a {
-      color: $dark-link !important;
-  
-      &:hover {
-        color: lighten($dark-link, 10%) !important;
-      }
+        color: $dark-link !important;
+        
+        &:hover {
+            color: lighten($dark-link, 10%) !important;
+        }
     }
   
 }
@@ -72,15 +74,14 @@ pre {
 
 
 .landingpage {
-
     .box1 {
-        border: 2px solid #bbbbbb;
-        background-color: $Background-dark;
+        border: 2px solid #bbb;
+        background-color: $background-dark;
     }
 
     .box {
-        background-color: $Background-dark;
-        border: 2px solid #bbbbbb;
+        background-color: $background-dark;
+        border: 2px solid #bbb;
 
     }
 

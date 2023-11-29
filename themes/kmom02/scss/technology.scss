@@ -123,6 +123,7 @@
    
     @media (max-width: 768px) {
         grid-template-columns: 1fr;
+
         .tech-links {
             width: 100%;
             margin-top: 0;
@@ -157,11 +158,13 @@
     }
 }
 
-a.active {
-    color: #fff;
-    background-color: #dda205;
-    font-weight: bold;
-    border-radius: 40px;
+a {
+    &.active {
+        color: #fff;
+        background-color: #dda205;
+        font-weight: bold;
+        border-radius: 40px;
+    }
 }
 
 

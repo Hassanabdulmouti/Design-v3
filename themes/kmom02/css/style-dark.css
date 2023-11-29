@@ -6727,14 +6727,20 @@ body a:hover {
   color: #d7b8fd;
 }
 
-.footer, .header, .text {
+.footer,
+.header,
+.text {
   background-color: #212D40;
   color: #E0E0E0;
 }
-.footer a, .header a, .text a {
+.footer a,
+.header a,
+.text a {
   color: #BB86FC !important;
 }
-.footer a:hover, .header a:hover, .text a:hover {
+.footer a:hover,
+.header a:hover,
+.text a:hover {
   color: #d7b8fd !important;
 }
 
@@ -6743,12 +6749,12 @@ pre {
 }
 
 .landingpage .box1 {
-  border: 2px solid #bbbbbb;
+  border: 2px solid #bbb;
   background-color: #364156;
 }
 .landingpage .box {
   background-color: #364156;
-  border: 2px solid #bbbbbb;
+  border: 2px solid #bbb;
 }
 
 .rapport a {

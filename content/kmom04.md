@@ -6,8 +6,8 @@
 </div>
 </div>
 
-En Jämförande Analys av Webbplatser
-=======================
+<h2>En Jämförande Analys av Webbplatser</h2>
+
 
 Färg och Typografi i Fokus
 
@@ -69,7 +69,7 @@ framgångsrikt förstärker deras digitala närvaro och användarupplevelse.
 komplementfärg (röd). De grå nyanserna ger en neutral bakgrund, medan den röda ger en skarp 
 
 kontrast som skulle kunna användas för att framhäva de viktigaste delarna i en design.
-<img class="kmom04-img" src="image/svt.png" width="500" alt="Alt Text" > 
+<img class="kmom04-img" src="image/svt.png" width="300" alt="Alt Text" > 
 <script src="https://coolors.co/palette-widget/widget.js"></script>
 <script  data-id="09494567573776187">new CoolorsPaletteWidget("09494567573776187", ["ebebeb","ffffff","e02e3d","1c1c1c"]); </script>
 
@@ -80,7 +80,7 @@ ljusgrå med en analog kombination av blått och grönt. Analoga färger ligger 
 färghjulet och matchar vanligtvis bra och skapar lugna och bekväma mönster. Men den djupblå kan 
 
 också betraktas som en komplementär kontrast till den gröna, beroende på dess tillämpning.
-<img class="kmom04-img" src="image/elgi.png" width="500" alt="Alt Text" > 
+<img class="kmom04-img" src="image/elgi.png" width="300" alt="Alt Text" > 
 <script src="https://coolors.co/palette-widget/widget.js"></script>
 <script data-id="05056527726254159">new CoolorsPaletteWidget("05056527726254159", ["f9f9f9","ffffff","041753","6aa334"]); </script>
 
@@ -92,7 +92,7 @@ blått. Triadiska färgscheman använder färger som är jämnt fördelade runt 
 
 att vara ganska levande, även om en färg är dominerande.
 
-<img class="kmom04-img" src="image/inet.png" width="500" alt="Alt Text" > 
+<img class="kmom04-img" src="image/inet.png" width="300" alt="Alt Text" > 
 <script src="https://coolors.co/palette-widget/widget.js"></script>
 <script data-id="03221297862302901">new CoolorsPaletteWidget("03221297862302901", ["ffffff","f2f2f2","111010","a50102","42a512","3399ff"]); </script>
 

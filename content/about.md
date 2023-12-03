@@ -7,6 +7,7 @@ Description:
 
 
 
+
 På min sida använder jag SCSS med tekniker som nesting och variabler.
 
 Nesting gör koden hierarkisk och lättförståelig, medan variabler möjliggör återanvändbara värden för färger och typsnitt.

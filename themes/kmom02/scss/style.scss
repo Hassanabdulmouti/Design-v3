@@ -14,6 +14,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'rapport';
 @import 'technology';
 @import 'blockquotes';
+@import 'images';
 @import 'code';
 
 
@@ -33,11 +34,37 @@ body {
     justify-content: center;
     align-items: center;
     flex: 1 0 auto;
+    margin-left: 8px;
     line-height: 0.3rem;
 
+    h2 {
+        line-height: 1.5rem;
+
+    }
+
 }
+
+
 
 .first-letter {
     font-size: 25px;
     line-height: 10px;
+}
+
+.excel {
+    width: 70%;
+}
+
+
+
+@media (max-width: 767px) {
+    .main {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 auto;
+        line-height: 1rem;
+
+    }
+
 }

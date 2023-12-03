@@ -1,0 +1,97 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+<div class="parent-container" role="main">
+        {{ content }}
+
+
+<div class="grid-container">
+
+
+<a href="{{ base_url }}/image/nature.jpeg" target="_blank">
+    <img  class="grid-item"
+        src="{{ base_url }}/image/nature.jpeg%&convolve=darken" 
+        srcset="{{ base_url }}/image/nature.jpeg?w=600%&convolve=darken 600w, 
+                {{ base_url }}/image/nature.jpeg?w=200%&convolve=darken 200w" 
+        sizes="(max-width: 600px) 60%, 1000px" 
+        alt="Leaf image">
+</a>
+
+<a href="{{ base_url }}/image/road.jpeg" target="_blank">
+<img 
+    class="grid-item" 
+    src="{{ base_url }}/image/road.jpeg" 
+    srcset="{{ base_url }}/image/road.jpeg?w=600 600w, 
+            {{ base_url }}/image/road.jpeg?w=200 200w" 
+    sizes="(max-width: 600px) 60%, 1000px" 
+    alt="Leaf image">
+</a>
+
+<a href="{{ base_url }}/image/ny.jpeg" target="_blank">
+
+<img 
+    class="grid-item" 
+    src="{{ base_url }}/image/ny.jpeg" 
+    srcset="{{ base_url }}/image/ny.jpeg?w=600 600w, 
+            {{ base_url }}/image/ny.jpeg?w=200 200w" 
+    sizes="(max-width: 600px) 60%, 1000px" 
+    alt="Leaf image">
+
+</a>
+
+<a href="{{ base_url }}/image/greece.jpeg" target="_blank">
+
+<img 
+    class="grid-item" 
+    src="{{ base_url }}/image/greece.jpeg" 
+    srcset="{{ base_url }}/image/greece.jpeg?w=600 600w, 
+            {{ base_url }}/image/greece.jpeg?w=200 200w" 
+    sizes="(max-width: 600px) 60%, 1000px" 
+    alt="Leaf image">
+
+</a>
+
+<a href="{{ base_url }}/image/oxford.jpeg" target="_blank">
+
+<img 
+    class="grid-item" 
+    src="{{ base_url }}/image/oxford.jpeg" 
+    srcset="{{ base_url }}/image/oxford.jpeg?w=600 600w, 
+            {{ base_url }}/image/oxford.jpeg?w=200 200w" 
+    sizes="(max-width: 600px) 60%, 1000px" 
+    alt="Leaf image">
+
+</a>
+
+<a href="{{ base_url }}/image/car.jpeg" target="_blank">
+
+<img 
+    class="grid-item" 
+    src="{{ base_url }}/image/car.jpeg" 
+    srcset="{{ base_url }}/image/car.jpeg?w=600 600w, 
+            {{ base_url }}/image/car.jpeg?w=200 200w" 
+    sizes="(max-width: 600px) 60%, 1000px" 
+    alt="Leaf image">
+
+</a>
+
+
+<div class="youtube-container">
+  <iframe 
+    src="https://www.youtube.com/embed/hVvEISFw9w0" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+
+</div>
+</div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

@@ -3,6 +3,7 @@ Title:
 Description: This is my technologies page.
 Template: technologies
 ---
+
 <div class="tech2">
 <div class="tech-links">
 <a href="css" class="active">CSS </a>
@@ -27,6 +28,9 @@ p {
     color: blue;
 }
 </code></pre>
+
+
+
 </div>
 <img class="about-img" src="image/css.png" width="300" alt="Alt Text" >
 </div>

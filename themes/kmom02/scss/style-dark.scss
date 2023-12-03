@@ -13,6 +13,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'home';
 @import 'rapport';
 @import 'technology';
+@import 'images';
 @import 'blockquotes';
 @import 'code';
 
@@ -116,4 +117,26 @@ pre {
     letter-spacing: 2px;
     color: $dark-text;
     font-size: 1.4rem;
+}
+
+.excel {
+    width: 70%;
+}
+
+.first-letter {
+    font-size: 25px;
+    line-height: 10px;
+}
+
+
+@media (max-width: 767px) {
+    .main {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 auto;
+        line-height: 1rem;
+
+    }
+
 }

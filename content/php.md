@@ -33,3 +33,5 @@ for ($i = 1; $i &lt;= 100; $i++) {
 </div>
 <img class="about-img" src="image/php.png" width="300" alt="Alt Text" >
 </div>
+
+

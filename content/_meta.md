@@ -1,5 +1,5 @@
 ---
-Logo: image/Logo3.png
+Logo: image/logo3.png
 social:
     - title: Mina sidor.
       url2: https://github.com/Hassanabdulmouti/Design-v3
